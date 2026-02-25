@@ -1,0 +1,58 @@
+# ==============================
+# 1. Virtual Environment
+# ==============================
+venv/
+.venv/
+env/
+
+# ==============================
+# 2. Python Cache Files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# 3. Streamlit Cache
+# ==============================
+.streamlit/
+
+# ==============================
+# 4. Trained Model Files (if large)
+# ==============================
+*.h5
+*.joblib
+
+# Keep .pkl if you want model in repo
+# Remove below line if you want to upload your model
+ *.pkl
+
+# ==============================
+# 5. Temporary Upload Files
+# ==============================
+*.tmp
+*.bak
+
+# ==============================
+# 6. Logs
+# ==============================
+*.log
+
+# ==============================
+# 7. OS Files (Windows / Mac)
+# ==============================
+Thumbs.db
+.DS_Store
+
+# ==============================
+# 8. IDE Files (VS Code / PyCharm)
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# 9. Python Build Files
+# ==============================
+build/
+dist/
+*.egg-info/
